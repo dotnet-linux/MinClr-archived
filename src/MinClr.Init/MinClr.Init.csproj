@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Version>0.1.1</Version>
+    <Company>.NET/Linux Development Team</Company>
+    <Authors>.NET/Linux Development Team</Authors>
+    <Product>.NET/Linux</Product>
+    <Description></Description>
+    <Copyright>© .NET/Linux Development Team. All rights reserved.</Copyright>
+  </PropertyGroup>
+
+</Project>
