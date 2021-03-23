@@ -98,11 +98,15 @@ namespace MinClr.Init
             Console.WriteLine("");
 
             Console.WriteLine("Starting DHCP deamon...");
-
+            try
             {
                 ProcessStartInfo startInfo = new ProcessStartInfo(
                     "/usr/sbin/dhcpcd");
                 Process.Start(startInfo).WaitForExit();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Failed to start DHCP deamon. ({0})", e.Message);
             }
 
             Console.WriteLine("");
